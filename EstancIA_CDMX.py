@@ -1,7 +1,4 @@
 import streamlit as st
-from PIL import Image
-
-img = Image.open("images/logo.png")
 
 from model_utils import (
     load_artifacts,
@@ -14,7 +11,7 @@ from model_utils import (
 
 st.set_page_config(
     page_title="EstancIA CDMX",
-    page_icon=img,
+    page_icon="🏙️",
     layout="wide"
 )
 
