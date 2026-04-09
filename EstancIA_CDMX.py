@@ -265,7 +265,7 @@ elif comparacion["n_comparables"] > 0:
         st.metric("Número de alojamientos similares", comparacion["n_comparables"])
 
     with m2:
-        st.metric("Precio promedio sdel mercado", f"${comparacion['market_avg_price']:,.0f} MXN")
+        st.metric("Precio promedio del mercado", f"${comparacion['market_avg_price']:,.0f} MXN")
 
     with m3:
         st.metric("Diferencia vs mercado", f"{comparacion['price_diff_pct']:.1f}%")
