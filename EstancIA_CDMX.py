@@ -18,7 +18,7 @@ st.set_page_config(
 col_logo, col_title = st.columns([1, 7])
 
 with col_logo:
-    st.image("images/logo.png", width=180)
+    st.image("Images/logo.png", width=180)
 
 with col_title:
     st.markdown(
