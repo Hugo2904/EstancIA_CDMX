@@ -274,7 +274,7 @@ elif comparacion["n_comparables"] > 0:
         st.metric("Percentil de precio", f"{comparacion['price_percentile']:.0f}%")
 
     st.caption("El percentil indica qué porcentaje de alojamientos comparables tiene un precio menor al tuyo.")
-    st.caption("""La diferencia vs mercado indica cómo se compara tu precio con el de otros alojamientos similares en tu zona.
+    st.caption("""La diferencia vs mercado indica cómo se compara tu precio evaluado con el de otros alojamientos similares en tu zona.
                   Un valor positivo significa que estás cobrando más que el promedio; uno negativo, que estás cobrando menos.""")
 
     if comparacion["position"] == "Por debajo del mercado":
