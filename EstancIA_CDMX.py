@@ -88,7 +88,7 @@ como WiFi, cocina equipada, estacionamiento, aire acondicionado, lavadora o tele
 Un mayor número de amenidades puede hacer que tu propiedad sea más atractiva y competitiva frente a otras similares.
 """)
 
-st.subheader("👤 Información del anfitrión en la plataforma de renta")
+st.subheader("👤 Tu información como anfitrión en la plataforma de renta")
 c4, c5 = st.columns(2)
 
 with c4:
